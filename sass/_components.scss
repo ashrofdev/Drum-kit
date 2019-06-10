@@ -1,0 +1,23 @@
+body {
+  background-image: url(../img/gal-4.jpeg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  &  .block {
+    margin-top: 40vh;
+    border: .5rem solid black;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 5px;
+    text-align: center;
+    padding: .5rem 0;
+    width: 10rem;
+    transition: all .1s;
+    &  .letter {
+      font-size: 3rem;
+      color: #fff;
+    }
+    &  .name {
+      color: orange;
+    }
+  }
+}
